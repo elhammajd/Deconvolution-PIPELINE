@@ -19,7 +19,7 @@ all codes are in the subdirectory directory at **scripts**
 ~~~
 all the .sh files that run the R files are in the subdirectory directory at **sh** 
 ~~~
-    [HSPE]/sh  
+    [PIPELINE]/sh  
 ~~~
 all the log files are in the subdirectory directory at **rout** 
 ~~~
