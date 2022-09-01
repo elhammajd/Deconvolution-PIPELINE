@@ -55,8 +55,9 @@ all the **datasets** from Schelker are stored at the directory bellow, which are
 
 <details><summary>scripts</summary>
 
-    ├── scripts  	
-    │ 	 └── pipeline.R			 				
+    ├── scripts
+    │ 	 ├── helper_functions.R		# The functions to generate the psudo bulk, true propotions and doing deconvolution 
+    │ 	 └── PIPELINE.R		# The main script 			 				
 </details>
 <details><summary>sh</summary>
 
@@ -157,10 +158,10 @@ devtools::install_github("dviraran/SingleR@v1.0")
 
 ## Running files 
 
-<details><summary>1. pipeline.R </summary>
+<details><summary>1. PIPELINE.R </summary>
 
 - set the 9 arguments including the deconvolution method, Bulk or SC method, Number of cells to be used to make the pseudo-bulk mixtures, Cell type to be removed from the reference matrix, Number of available cores;
-- generates pseudo-bulk mixtures;
+- generates pseudo-bulk mixtures using helper_functions.R;
 - predict the estimated proportion;
 - compute RMSE and Pearson correlation between true and estimated propostion;
 
