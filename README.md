@@ -169,7 +169,6 @@ devtools::install_github("dviraran/SingleR@v1.0")
  
  ~~~
     sbatch ./sh/pipeline.sh
-~~~
 
 
 
