@@ -22,7 +22,7 @@ i) a specific dataset (from "example","baron","GSE81547","E-MTAB-5061","PBMCs")
 -The original code can be found here: https://github.com/favilaco/deconv_benchmark
 -R statistical programming language, v3.6 (R >= 3.6.0)
 
-~~~
+
 
 ---
 ## Directory Layout
@@ -169,7 +169,3 @@ devtools::install_github("dviraran/SingleR@v1.0")
  
  ~~~
     sbatch ./sh/pipeline.sh
-
-
-
-
